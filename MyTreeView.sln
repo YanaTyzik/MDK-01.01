@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35818.85 d17.13
+VisualStudioVersion = 17.13.35818.85
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTreeView", "MyTreeView\MyTreeView.csproj", "{5EB77863-173D-4859-8D2E-4A4C77344568}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLib", "ClassLib\ClassLib.csproj", "{957DFAE9-2266-442E-AC5F-6587523ACE6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Бандинчетотам", "Бандинчетотам\Бандинчетотам.csproj", "{EB84989C-4FD0-4C7D-A20C-90AFE2A5A763}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{957DFAE9-2266-442E-AC5F-6587523ACE6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{957DFAE9-2266-442E-AC5F-6587523ACE6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{957DFAE9-2266-442E-AC5F-6587523ACE6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB84989C-4FD0-4C7D-A20C-90AFE2A5A763}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB84989C-4FD0-4C7D-A20C-90AFE2A5A763}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB84989C-4FD0-4C7D-A20C-90AFE2A5A763}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB84989C-4FD0-4C7D-A20C-90AFE2A5A763}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

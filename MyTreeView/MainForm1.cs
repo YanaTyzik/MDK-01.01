@@ -28,12 +28,12 @@ namespace MyTreeView
         private void MainForm1_Load(object sender, EventArgs e)
         {
             {
-                treeData_.Add(new TreeNodeModel("Исскуство"));
+                treeData_.Add(new TreeNodeModel("Живопись"));
                 var artNode = treeData_[0];
                 var artists = artNode.AddChildNode("Художники");
                 artists.AddChildNode("Винсент Ван Гог");
                 artists.AddChildNode("Леонардо Да Винчи");
-                artists.AddChildNode("Сальвадора Дали");
+                artists.AddChildNode("Сальвадор Дали");
 
                 var countries = artNode.AddChildNode("Страны");
                 countries.AddChildNode("Нидерланды");
@@ -44,12 +44,17 @@ namespace MyTreeView
                 picture.AddChildNode("Звездная ночь");
                 picture.AddChildNode("Мона Лиза");
                 picture.AddChildNode("Постоянство памяти");
+
+                treeData_.Add(new TreeNodeModel("Скульптура"));
+
+
+                FillTreeNodeCollection(treeData_, MyTreeView.Nodes);
+                treeView1.ExpandAll();
+                Table.DataSource = artistsModel_.Artists;
+                FillTableAliases();
+
             }
-        
-            FillTreeNodeCollection(treeData_, MyTreeView.Nodes);
-            treeView1.ExpandAll();
-            Table.DataSource = artistsModel_.Artists;
-            FillTableAliases();
+
         }
 
         static private void FillTreeNodeCollection(List<TreeNodeModel> sourceData, TreeNodeCollection targetData) 
